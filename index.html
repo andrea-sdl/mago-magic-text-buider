@@ -1,67 +1,158 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>MAGO, the Magic Text Builder - Transform your text inputs any way you want it (almost...)</title>
+    <!--
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    -->
+    <link href="css/yeti.bootstrap.min.css" rel="stylesheet">
+    <!--
+    Wow! You are just looking at some dirty code. Well, not that dirt, but still...
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    since you cared so deeply to read it, I think you absolutely deserve to know what I want to improve next ;)
+    here's my to-do list, sorry if english is horrible, but hey, it shouldn't be really public.
 
-    <title>Mago-magic-text-buider by andrea-sdl</title>
-  </head>
+    ups... the todolist is empty for now...
+    -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  <body>
+        ga('create', 'UA-339403-15', 'auto');
+        ga('send', 'pageview');
 
-    <header>
-      <div class="container">
-        <h1>Mago-magic-text-buider</h1>
-        <h2>Mago is a webpage to help people merge/build text from data</h2>
+    </script>
+</head>
+<body manifest="/cache.manifest">
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>MAGO, the Magic Text Builder</h1>
 
-        <section id="downloads">
-          <a href="https://github.com/andrea-sdl/mago-magic-text-buider/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/andrea-sdl/mago-magic-text-buider/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/andrea-sdl/mago-magic-text-buider" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+            <p>Transform your text inputs <a href="https://www.youtube.com/watch?v=atxUuldUcfI" target="_blank">any way you want it</a> <em>(well, almost...)</em> </p>
+            <em><small> brought to you with love by <a class="text-success" href="http://toolbox.haptime.in" target="_blank">The Awesome Free Toolbox</a> and <a class="text-success" href="http://haptime.in"  target="_blank">Haptime.in</a></small></em>
 
-    <div class="container">
-      <section id="main_content">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+        </div>
     </div>
 
-    
-  </body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1 text-center">
+                <h3>1. Insert your input data</h3>
+                <small>
+                    <em>every line will be a new set of data<br/>
+                        every column a subsequent field you can use.<br/>
+                        to create a new column use a tab char, or ";" in CSV mode
+                    </em>
+                </small>
+                <textarea id="input-text" wrap="off" >
+first column&#9;second column
+wow, this is a new row&#9;and its second column
+what happens with only 1 column?
+                </textarea>
+                <div class="checkbox hidden">
+                    <label>
+                        <input type="checkbox" id="csv-mode" value="on"> activate csv mode
+                    </label>
+                </div>
+            </div>
+            <div class="col-sm-5 text-center">
+                <h3>2. Write how to use it</h3>
+                <small>
+                    <em>
+                        reaaally simple. you use <code>{{data}}</code> to include it.<br/>
+                        if you have more columns you will use <code>{{data2}}</code>,<code>{{data3}}</code>, etc<br/>
+                        got it?
+                    </em>
+                </small>
+                <textarea id="template-text" wrap="off" >this is the template for your data.
+it will repeat for every row you have.
+
+First column is -> {{data}} <-
+second column is -> {{data2}} <-
+
+got it? If not, click the "Do The Magic Move" button ;)
+               </textarea>
+            </div>
+        </div>
+        <div class="row" id="the-magic-box">
+            <div class="col-sm-8 col-sm-offset-2 text-center ">
+                <a href="javascript:void(0)" id="magicMoveBtn" class="btn btn-block btn-warning" onclick="doTheMagicMove()">
+                    Do The Magic Move
+                </a>
+                <small class="hidden" id="csv-mode-enabled"><em>CSV mode is enabled, <a href="javascript:void(0)" onclick="disableCSV()"><small>want to disable?</small></a></em></small>
+                <small class="hidden" id="csv-mode-disabled"><em>CSV mode is disabled, <a href="javascript:void(0)" onclick="enableCSV()"><small>want to enable?</small></a></em></small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+                <textarea id="result-text" wrap="off" style="width:100%;height:400px">
+
+                </textarea>
+            </div>
+        </div>
+
+        <div class="row finish-box">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+              <h2>That's it</h2>
+              <p> want some more example?</p>
+              <p>see <a href="javascript:void(0)" onclick="demoExcel()">what happens when you paste an excel data to create an SQL query</a></p>
+                <p>what about <a href="javascript:void(0)" onclick="demoCSV()">using a CSV text to populate some info</a></p>
+            </div>
+        </div>
+
+
+        <div class="row faq-box">
+            <div class="col-sm-6 col-sm-offset-3 text-center">
+                <h2>FAQ</h2>
+                <h3 id="faq-empty">How do I start with empty textareas?</h3>
+                <p>just add the <code>clear=true</code> to the url or bookmark <code>http://mago.haptime.in?clear=true</code></p>
+
+                <h3 id="faq-csv">How do I activate csv by default?</h3>
+                <p>just add the <code>csv=true</code> to the url or bookmark <code>http://mago.haptime.in?csv=true</code></p>
+
+
+                <h3 id="faq-both">Can I mix them both?</h3>
+                <p>Oh yeah! <code>http://mago.haptime.in?clear=true&csv=true</code></p>
+
+                <h3 id="faq-why">Why did you build something like this?</h3>
+                <p>I needed it. Sometimes I wanted to build some complex queries based on data, but I hate using excel to do that since it doesn't help you visualize how you can print the data.</p>
+
+
+                <h3 id="faq-offline">Does MAGO works offline?</h3>
+                <p>Yes! If your browser supports html5 offline capabilities, then you're good to go.</p>
+            </div>
+        </div>
+        <div class="row text-center ">
+            <div class="col-sm-6 col-sm-offset-3 ">
+                <hr/>
+            </div>
+            <h2>Who built this?</h2>
+            <div class="col-sm-6 col-sm-offset-3 centered font-thin">
+                <h3>Andrea Grassi</h3>
+                <p>
+                    <img class="img img-circle" src="css/myself.jpg" height="120px" width="120px" alt="">
+                    <br>
+                </p>
+                <p>
+                    Creator of <a href="http://haptime.in" target="_blank">Haptime.in, the time tracker with no timers</a>.<br><br>
+                    Passionate about productivity, web developer and enthusiastic about personal development.<br><br>
+                    You can learn more in my <a href="http://about.me/andrea_sdl" target="_blank">about me page</a>
+                </p>
+                <br>
+                <p> or you can <br><a class="typeform-share btn btn-success btn-lg" href="https://andrea-sdl.typeform.com/to/fnTcQR" data-mode="1" target="_blank">Contact Me</a>
+                    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script></p>
+            </div>
+            <div class="col-sm-1 hidden-sm">&nbsp;</div>
+        </div><!-- /row -->
+    </div>
+    <script src="js/jquery.min.handlebars.min.js"></script>
+    <script src="js/magic.js"></script>
+
+    <script src="//load.sumome.com/" data-sumo-site-id="84434649e40561e3edc5fdc1fa38db6099838984c56722e487d4dd177a5eb21d" async></script>
+</body>
 </html>
