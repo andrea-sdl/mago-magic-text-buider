@@ -14,8 +14,8 @@
  * ok, I suppose you deserve to read. Hope you enjoy my friend.
  */
 function doTheMagicMove(){
-    var input=$("#input-text").html();
-    var source=$("#template-text").html();
+    var input=$("#input-text").val();
+    var source=$("#template-text").val();
 
     var template = Handlebars.compile(source);
 
@@ -41,7 +41,7 @@ function doTheMagicMove(){
         else
             fullHtml=fullHtml+"\n"+singleHtml;
     }
-    $("#result-text").html(fullHtml);
+    $("#result-text").val(fullHtml);
     $('html, body').animate({
         scrollTop: $("#result-text").offset().top-150
     }, 1000);
@@ -50,7 +50,7 @@ function doTheMagicMove(){
 }
 function getSplitChar(){
     if ($("#csv-mode").attr("checked")=='checked')
-        return ";"
+        return ";";
     else
         return "\t";
 }
